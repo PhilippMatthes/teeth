@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  teeth
+
+  Created by Philipp Matthes on 20.10.17.
+  Copyright © 2017 Philipp Matthes. All rights reserved.
+*/
+
+"bereit" = "Bereit";
+"oben" = "Oben";
+"unten" = "Unten";

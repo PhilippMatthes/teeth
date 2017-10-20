@@ -12,6 +12,10 @@
 		BE61E2791F8F5B4C00594D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE61E2771F8F5B4C00594D16 /* Main.storyboard */; };
 		BE61E27B1F8F5B4C00594D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE61E27A1F8F5B4C00594D16 /* Assets.xcassets */; };
 		BE61E27E1F8F5B4C00594D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE61E27C1F8F5B4C00594D16 /* LaunchScreen.storyboard */; };
+		BE9826AF1F99E3F100DC7180 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9826AD1F99E3F100DC7180 /* Constants.swift */; };
+		BE9826B01F99E3F100DC7180 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9826AE1F99E3F100DC7180 /* ProgressBar.swift */; };
+		BE9826B21F9A06D100DC7180 /* FabulousButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9826B11F9A06D100DC7180 /* FabulousButton.swift */; };
+		BE9826C31F9A3BEF00DC7180 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE9826C11F9A3BEF00DC7180 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,14 @@
 		BE61E27A1F8F5B4C00594D16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE61E27D1F8F5B4C00594D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE61E27F1F8F5B4C00594D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9826AD1F99E3F100DC7180 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BE9826AE1F99E3F100DC7180 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		BE9826B11F9A06D100DC7180 /* FabulousButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabulousButton.swift; sourceTree = "<group>"; };
+		BE9826B61F9A224100DC7180 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		BE9826C21F9A3BEF00DC7180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = teeth/Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BE9826C41F9A3C7500DC7180 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		BE9826C51F9A3C7500DC7180 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		BE9826C61F9A3C7500DC7180 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = teeth/de.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +68,11 @@
 			children = (
 				BE61E2731F8F5B4C00594D16 /* AppDelegate.swift */,
 				BE61E2751F8F5B4C00594D16 /* ViewController.swift */,
+				BE9826AD1F99E3F100DC7180 /* Constants.swift */,
+				BE9826AE1F99E3F100DC7180 /* ProgressBar.swift */,
 				BE61E2771F8F5B4C00594D16 /* Main.storyboard */,
+				BE9826C11F9A3BEF00DC7180 /* Localizable.strings */,
+				BE9826B11F9A06D100DC7180 /* FabulousButton.swift */,
 				BE61E27A1F8F5B4C00594D16 /* Assets.xcassets */,
 				BE61E27C1F8F5B4C00594D16 /* LaunchScreen.storyboard */,
 				BE61E27F1F8F5B4C00594D16 /* Info.plist */,
@@ -107,6 +123,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = BE61E2671F8F5B4C00594D16;
 			productRefGroup = BE61E2711F8F5B4C00594D16 /* Products */;
@@ -124,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE61E27E1F8F5B4C00594D16 /* LaunchScreen.storyboard in Resources */,
+				BE9826C31F9A3BEF00DC7180 /* Localizable.strings in Resources */,
 				BE61E27B1F8F5B4C00594D16 /* Assets.xcassets in Resources */,
 				BE61E2791F8F5B4C00594D16 /* Main.storyboard in Resources */,
 			);
@@ -136,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE9826B21F9A06D100DC7180 /* FabulousButton.swift in Sources */,
 				BE61E2761F8F5B4C00594D16 /* ViewController.swift in Sources */,
 				BE61E2741F8F5B4C00594D16 /* AppDelegate.swift in Sources */,
+				BE9826B01F99E3F100DC7180 /* ProgressBar.swift in Sources */,
+				BE9826AF1F99E3F100DC7180 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +169,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				BE61E2781F8F5B4C00594D16 /* Base */,
+				BE9826B61F9A224100DC7180 /* en */,
+				BE9826C41F9A3C7500DC7180 /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -156,8 +179,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				BE61E27D1F8F5B4C00594D16 /* Base */,
+				BE9826C51F9A3C7500DC7180 /* de */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BE9826C11F9A3BEF00DC7180 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE9826C21F9A3BEF00DC7180 /* Base */,
+				BE9826C61F9A3C7500DC7180 /* de */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -167,6 +200,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -211,7 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -224,6 +258,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -262,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -277,8 +312,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S36925NV4E;
 				INFOPLIST_FILE = teeth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.teeth;
+				PRODUCT_BUNDLE_IDENTIFIER = teethBrushApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -292,8 +328,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S36925NV4E;
 				INFOPLIST_FILE = teeth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.teeth;
+				PRODUCT_BUNDLE_IDENTIFIER = teethBrushApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
